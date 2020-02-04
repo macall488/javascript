@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>자바스크립트 6일차 1번파일</title>
+    
+    <script>
+        // 함수 : 특정한 기능을 수행하기 위한코드의 모음
+
+        // function funcName(val1, val2) {
+        //     // 함수 호출 시 실행될 코드 
+        //     alert(val1 + val2);
+        // }
+
+        // funcName(100, 200); // 함수의 원형 모양에 맞게 적어줘야 함
+        
+            // 기본형 함수 / 함수 종류 1번
+        function cleaningStart() {
+            console.log("청소를 시작합니다.");
+        }
+
+        function cleaningEnd() {
+            console.log("청소를 종료합니다.");
+        }
+
+        function cleaning() {
+            console.log("청소 중입니다.")
+        }
+
+        cleaningStart();
+        cleaning();
+        cleaningEnd();
+
+
+        // 함수 종류 2번으로 변환 ( 매개변수 O, 반환값 X)
+
+        // 프로그램은 크게 나누었을때..
+        // 변수, 함수
+        // 데이터 타입(숫자, 문자, 논리, undefined)
+            // 배열, 객체
+        // 제어문 (if ~ else if), 반복문
+
+
+
+        function cleaningStart1(a, b, c) {
+           return a + b + c;
+        }
+        
+        result = cleaningStart1("물", "걸래", "청소");
+        console.log(result);
+
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
